@@ -1,0 +1,392 @@
+body{font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+p,h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+
+ol,ul{
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+   height: auto;
+}
+.container{
+width: 1158px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
+}
+
+
+/* HEADER */
+.page-header{
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container{
+  display: flex;
+  align-items: center;
+}
+
+.header-nav{
+  display: flex;
+align-items: center;
+}
+.nav-list{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.address-list{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-logo{
+  padding: 24px 0;
+  margin-right: 76px;
+}
+
+.page-contacts {
+  font-style: normal;
+  margin-left: auto;
+}
+
+.address-item a{
+  display: block;
+  padding: 24px 0;
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  font-style: normal;
+  line-height: 1.5;
+  background-color: #ffffff;
+}
+
+.address-item a:focus {
+  color: #404bbf;
+}
+.address-item a:hover {
+  color: #404bbf;
+}
+.address-qwe{
+  display: block;
+  padding: 24px 0;
+  
+}
+
+.nav-item {
+  display: block;
+  text-decoration: none;
+  color: #2e2f42;
+  text-transform: capitalize;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  line-height: 1.5;
+  background-color: #ffffff;
+  padding: 24px 0;
+}
+
+.nav-item:hover,
+.special-studio:focus {
+  color: #404bbf;
+}
+
+.logo-web {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+  text-decoration: none;
+}
+
+
+.logo-studio {
+  color: #2e2f42;
+}
+/* ____________________________________________________________________________________________ */
+
+
+/* SECTION ONE */
+.section-one {
+  background-color: #2e2f42;
+  box-sizing: content-box;
+  padding: 188px 0;
+
+}
+
+.section-one .main-title {
+  font-size: 56px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.07;
+  color: #ffffff;
+  max-width: 496px;
+  margin: 0 auto;
+margin-bottom: 48px;
+text-align: center;
+}
+
+.order-button {
+  display: block;
+  margin: 0 auto;
+  border: none;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+border-radius: 4px;
+min-width: 169px;
+height: 56px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: #4d5ae5;
+cursor: pointer;
+}
+
+.order-button:focus {
+  background-color: #404bbf;
+}
+
+.order-button:hover {
+  background-color: #404bbf;
+}
+
+
+/* SECTION TWO */
+.section-two{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.section-two .htwomain-head {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  color: #2e2f42;
+  margin-bottom: 8px;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.advantages-list{
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.advantages-item{
+width: calc((100% - 72px) / 4); 
+}
+.advantages-item .hthreetop-head{
+  margin-bottom: 8px;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+.advantages-item .paragraph{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.portfolio {
+  background-color: #ffffff;
+}
+
+
+/* SECTION THREE */
+.section-three {
+  background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.team-title{
+min-width: 162px;  
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+margin-bottom: 72px;
+}
+
+.photo-emp-item .hthreetop-head{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+margin-bottom: 8px;
+}
+
+.photo-emp-item .paragraph{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+color: #434455;
+}
+
+.hthreetop-head {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  line-height: 1.2;
+}
+
+.sect-three .htwomain-head {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.photo-emp-item {
+  background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+  /* padding: 0px 0px 32px 0px; */
+}
+
+.team-list{
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.names-and-proffesion{
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+
+
+/* SECTION FOUR */
+.section-four{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.section-four .htwomain-head {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+.portfolio-list{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-item{
+  background-color: #fff;
+  width: calc((100% - 48px) / 3);
+}
+
+.portfolio-item .hthreetop-head{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.portfolio-item .paragraph{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.portfolio-decription{
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+
+.portfolio-decription .hthreetop-head{
+  margin-bottom: 8px;
+}
+.portfolio-decription{
+  padding: 32px 16px;
+}
+
+/* .portfolio-decription .hthreetop-head{
+  margin-left: 16px;
+  margin-top: 32px;
+
+}
+.portfolio-decription .paragraph{
+  padding-left: 16px;
+  padding-bottom: 32px;
+} */
+
+/* PHOOTER */
+.footer-logo{
+margin-right: auto;
+display: inline-block;
+margin-bottom: 16px;
+}
+.phooter-class {
+  background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.phooter-class .phooter-paragraph {
+  color: #f4f4fd;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  max-width: 264px;
+  min-width: 264px;
+  min-height: 72px;
+}
+
+.logo-studio-white{
+  color: #F4F4FD;
+}
+
+
