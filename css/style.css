@@ -517,7 +517,7 @@ color: #fff;
 .links-footer-list{
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 16px;
   margin-top: 8px;
 }
 
